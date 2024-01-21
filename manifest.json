@@ -1,0 +1,33 @@
+{
+    "manifest_version": 1,
+    "version": 1,
+    "type": "APP",
+    "name": {
+        "ja": "kintoneProxyサンプルプラグイン",
+        "en": "kintoneProxy sample plugin",
+        "zh": "kintoneProxy sample plugin"
+    },
+    "description": {
+        "ja": "kintone Proxy APIを用いた検証用プラグインです。",
+        "en": "This is a sample plugin for testing kintone Proxy API.",
+        "zh": "This is a sample plugin for testing kintone Proxy API."
+    },
+    "icon": "contents/icon.png",
+    "desktop": {
+        "js": [
+            "https://js.cybozu.com/jquery/1.11.1/jquery.min.js",
+            "desktops/desktop.js"
+        ]
+    },
+    "config":{
+        "html": "contents/setting.html",
+        "js": [
+            "https://js.cybozu.com/jquery/1.11.1/jquery.min.js",
+            "config_js/config.js"
+        ],
+        "css": [
+            "config_css/51-modern-default.css"
+        ],
+         "required_params": []
+    }
+}
