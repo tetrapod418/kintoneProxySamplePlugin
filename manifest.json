@@ -2,16 +2,8 @@
     "manifest_version": 3,
     "version": 1,
     "type": "APP",
-    "name": {
-        "ja": "kintoneProxyサンプルプラグイン",
-        "en": "kintoneProxy sample plugin",
-        "zh": "kintoneProxy sample plugin"
-    },
-    "description": {
-        "ja": "kintone Proxy APIを用いた検証用プラグインです。",
-        "en": "This is a sample plugin for testing kintone Proxy API.",
-        "zh": "This is a sample plugin for testing kintone Proxy API."
-    },
+    "name": "kintoneProxyサンプルプラグイン",
+    "description": "kintone Proxy APIを用いた検証用プラグインです。",
     "icon": "contents/icon.png",
     "desktop": {
         "js": [
