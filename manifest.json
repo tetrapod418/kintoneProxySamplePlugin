@@ -4,22 +4,22 @@
     "type": "APP",
     "name": "kintoneProxyサンプルプラグイン",
     "description": "kintone Proxy APIを用いた検証用プラグインです。",
-    "icon": "contents/icon.png",
-    "desktop": {
+    "icons": "contents/icon.png",
+    "content_scripts": [ {
         "js": [
             "https://js.cybozu.com/jquery/1.11.1/jquery.min.js",
             "desktops/desktop.js"
         ]
-    },
-    "config":{
-        "html": "contents/setting.html",
+    }],
+    "options_page": [{
+        "html": "options/setting.html",
         "js": [
             "https://js.cybozu.com/jquery/1.11.1/jquery.min.js",
-            "config_js/config.js"
+            "options/config.js"
         ],
         "css": [
             "config_css/51-modern-default.css"
         ],
          "required_params": []
-    }
+    }]
 }
