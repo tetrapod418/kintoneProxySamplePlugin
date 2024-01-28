@@ -11,8 +11,9 @@
             "desktops/desktop.js"
         ]
     }],
-    "options_page": [{
-        "html": "options/setting.html",
+    "options_page" : "options/setting.html",
+    "options_ui" : [{
+        "page" : ["options/setting.html"],
         "js": [
             "https://js.cybozu.com/jquery/1.11.1/jquery.min.js",
             "options/config.js"
