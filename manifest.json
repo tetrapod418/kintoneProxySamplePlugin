@@ -6,6 +6,7 @@
     "description": "kintone Proxy APIを用いた検証用プラグインです。",
     "icons": "contents/icon.png",
     "content_scripts": [ {
+        "matches" : ["https://1lc011kswasj.cybozu.com/k/2/"],
         "js": [
             "https://js.cybozu.com/jquery/1.11.1/jquery.min.js",
             "desktops/desktop.js"
