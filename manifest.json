@@ -4,7 +4,7 @@
     "type": "APP",
     "name": "kintoneProxyサンプルプラグイン",
     "description": "kintone Proxy APIを用いた検証用プラグインです。",
-    "icons": "contents/icon.png",
+    "icons": "options/icon.png",
     "content_scripts": [ {
         "matches" : ["https://1lc011kswasj.cybozu.com/k/2/"],
         "js": [
