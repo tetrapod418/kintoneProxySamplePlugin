@@ -8,8 +8,9 @@ document.getElementById("btn").addEventListener("click", async () => {
 
 function onRun() {
     console.log(`Run button clocked! current color = ${document.body.style.backgroundColor}`)
-    chrome.storage.sync.get(null, (options) => {
+/*     chrome.storage.sync.get(null, (options) => {
         document.body.style.backgroundColor = options.colorValue;
         console.log(`backgroundColor = ${options.colorValue}`);
     });
+ */
 }
