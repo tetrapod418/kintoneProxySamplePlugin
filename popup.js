@@ -9,5 +9,6 @@ document.getElementById("btn").addEventListener("click", async () => {
 function onRun() {
     chrome.storage.sync.get(null, (options) => {
         document.body.style.backgroundColor = options.colorValue;
+        console.log(`backgroundColor = ${options.colorValue}`);
     });
 }
