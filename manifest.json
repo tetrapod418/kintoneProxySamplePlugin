@@ -4,6 +4,7 @@
     "type": "APP",
     "name": "kintoneProxyサンプルプラグイン",
     "description": "kintone Proxy APIを用いた検証用プラグインです。",
+    "permissions": ["activeTab", "scripting", "storage"],
     "content_scripts": [ {
         "matches" : ["https://1lc011kswasj.cybozu.com/k/2/"],
         "js": [
