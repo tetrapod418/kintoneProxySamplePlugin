@@ -4,6 +4,7 @@
     "name": "kintoneProxyサンプルプラグイン",
     "description": "kintone Proxy APIを用いた検証用プラグインです。",
     "permissions": ["activeTab", "scripting", "storage"],
+    "options_page" : "options.html",
     "action": {
         "default_popup" : "popup.html",
         "default_icon" : "HelloExtentions.png"
@@ -16,6 +17,5 @@
         }   ,
         "description": "Run extension."
       }
-    },
-    "options_page" : "options.html"
- }
+    }
+  }
