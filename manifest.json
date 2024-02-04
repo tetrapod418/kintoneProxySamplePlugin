@@ -8,5 +8,14 @@
         "default_popup" : "popup.html",
         "default_icon" : "HelloExtentions.png"
     },
+    "commands": {
+        "_execute_action": {
+        "suggested_key": {
+            "default": "Ctrl+Shift+H",
+            "mac": "MacCtrl+Shift+H"
+        }   ,
+        "description": "Run extension."
+      }
+    },
     "options_page" : "options.html"
  }
