@@ -8,16 +8,5 @@
         "default_popup" : "popup.html",
         "default_icon" : "HelloExtentions.png"
     },
-    "options_page" : "options/setting.html",
-    "options_ui" : [{
-        "page" : ["options/setting.html"],
-        "js": [
-            "https://js.cybozu.com/jquery/1.11.1/jquery.min.js",
-            "options/config.js"
-        ],
-        "css": [
-            "config_css/51-modern-default.css"
-        ],
-         "required_params": []
-    }]
-}
+    "options_page" : "options.html",
+ }
